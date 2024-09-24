@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(90, 25, 25);
+}
+
+p {
+    text-align: justify;
+}
+
+.PA {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(90, 25, 25);
+}
+
+a:hover {
+    text-decoration: underline;
+}
