@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        div:hover {
+            background-color: yellow;
+            color: red;
+        }
+
+        #para:hover {
+            color: green;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        #txt-hide > #hide {
+            display: none;
+        }
+
+        #txt-hide:hover > #hide {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+     <h1>Exemplo de Hover</h1>  
+     <p id="para">Passe o mouse aqui</p>
+     <div><p>Passe o mouse aqui</p></div>
+     <p><a href="https://ge.globo.com/" target="_blank"> Visite o site</a></p>
+
+     <div id="txt-hide">
+        <p>Passe o mouse aqui</p>
+        <p id="hide">TEXTO ESCONDIDO</p>
+     </div>
+     <p>Fim do exemplo</p>
+</body>
+</html>
