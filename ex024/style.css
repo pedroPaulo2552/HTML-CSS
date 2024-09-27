@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: rgb(126, 11, 11);
+    --cor1: rgb(250, 108, 108);
+    --cor2: rgb(255, 0, 0);
+    --font01: sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header > h1 {
+    color: var(--cor0);
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+p {
+    color: var(--cor0);
+    font-family: var(--font01);
+}
