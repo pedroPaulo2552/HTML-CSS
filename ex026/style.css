@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Reddit+Mono:wght@200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(68.15deg,#2F2325, #8E5D52 );
+}
+
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.473);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#img-logo {
+    height: 80px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#menu > a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu > a:hover {
+    text-decoration: underline;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#tit-prin {
+    font-size: 80px;
+    font-family: 'Noto Sans Mono';
+}
+
+.paragrafo {
+    font-family: 'Reddit Mono';
+}
+
+#sec-prin {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+#Texto-bot {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#botao {
+   width: 120px; 
+   padding: 15px;
+   border-radius: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.377);
+   background-color: #e7b9af;
+}
+
+#botao:hover {
+    cursor: pointer;
+    translate: 0px -2px;
+    background-color: #2F2325;
+    color: #e7b9af;
+}
+
+#sec-secundaria {
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#tit-secundario {
+    padding-top: 50px; 
+    border-top: 1px solid rgba(0, 0, 0, 0.342);
+    margin-bottom: 20px;
+    font-family: 'Noto Sans Mono';
+}
+
+#list > li {
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.342);
+}
